@@ -7,12 +7,15 @@ Deadline is within 3 days from the day you accept to start working
 - Make sure you have it tested
 - We'll review your documentation as well
 
-![alt Expectation](https://github.com/jasonhieu1905/anymind/tree/master/src/assets/images)
+![alt Input](https://github.com/jasonhieu1905/anymind/blob/master/src/assets/images/Anymind.png)
+![alt Expectation](https://github.com/jasonhieu1905/anymind/blob/master/src/assets/images/Anymind.png)
 
 Requirements :
- - Display 2 tabs: 'Hashtag Search' and 'User Search'. User can switch the tab. For the second tab 'User Search', just leave it a text 'This is user page'.
+ - Display 2 tabs: 'Hashtag Search' and 'User Search'. User can switch the tab. For the second tab 'User Search', just leave it 'This is user page'.
  - User can filter, pagination  in 'Hashtag Search' 
+ 
 Plus points :
  - Support multi-languages
  - Responsive on mobile/tablet
+ - 
   
