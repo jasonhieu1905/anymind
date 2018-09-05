@@ -1,0 +1,36 @@
+<form class="form">
+  <div class="form__header">
+    <div class="row">
+      <div class="col col-12 col-sm-6 col-lg-3">
+        <div class="form-group">
+          <label>Twitter HashTag</label>
+          <div class="input-group input-group--search">
+            <input formControlName="query" type="search" class="form-control" placeholder="Search" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <section *ngIf="totalTweets">
+      <table style="width:100%">
+        <tr>
+          <td>Tweet</td>
+          <td>Likes</td>
+          <td>Replies</td>
+          <td>Retweet</td>
+          <td>Hashtags</td>
+          <td>Date</td>
+        </tr>
+        <tr *ngFor="let tweet of tweets">
+          <td>{{ tweet.tweet }}</td>
+          <td>{{ tweet.likes }}</td>
+          <td>{{ tweet.replies }}</td>
+          <td>{{ tweet.retweets }}</td>
+          <td>{{ tweet.hashtags }}</td>
+          <td>{{ tweet.date }}</td>
+        </tr>
+      </table>
+    </section>
+  </div>
+</form>
