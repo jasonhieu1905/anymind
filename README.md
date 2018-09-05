@@ -17,5 +17,4 @@ Requirements :
 Plus points :
  - Support multi-languages
  - Responsive on mobile/tablet
- - 
   
